@@ -11,7 +11,7 @@ publishes the decrypted name onto a new ROS topic.
 3. sub.py: A ROS subscriber node that listens to the final topic from pubsub.py and
 prints out the decrypted name
 
-##Note: Everything should be done in the home directory
+## Note: Everything should be done in the home directory
 
 Procedure to run the code:
 1. Run `roscore`
