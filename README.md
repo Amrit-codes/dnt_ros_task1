@@ -13,5 +13,6 @@ prints out the decrypted name
 
 Procedure to run the code:
 1. Run roscore
-2. Source <workspace_name>/devel/setup.bash
+2. Source `<workspace_name>/devel/setup.bash`
 3. Make pub.py, pubsub.py and sub.py executable using the command ` chmod +x <filename>`
+4. Run each file using ` rosrun <pkg_name> <filename>`
