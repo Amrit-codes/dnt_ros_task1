@@ -13,6 +13,10 @@ prints out the decrypted name
 
 Procedure to run the code:
 1. Run `roscore`
-2. Source `<workspace_name>/devel/setup.bash`
-3. Make pub.py, pubsub.py and sub.py executable using the command `chmod +x <filename>`
-4. Run each file using `rosrun <pkg_name> <filename>`
+2. Create the workspace directory and src directory
+3. Inside the workspace directory run `catkin_make`
+4. `cd` into src and run `catkin_create_pkg <pkg_name> <dependencies>`
+5. `cd` into your package and then into src
+6. Source `<workspace_name>/devel/setup.bash`
+7. Make pub.py, pubsub.py and sub.py executable using the command `chmod +x <filename>`
+8. Run each file using `rosrun <pkg_name> <filename>`
