@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/amrit/dnt_task_ws/devel -DCMAKE_INSTALL_PREFIX=/home/amrit/dnt_task_ws/install -G Unix Makefiles
